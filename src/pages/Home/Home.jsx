@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar/Navbar'
 import hero_banner from '../../assets/hero_banner.jpg'
 import hero_title from '../../assets/hero_title.png'
 import play_icon from '../../assets/play_icon.png'
+import info_icon from '../../assets/info_icon.png'
+import TitleCArds from '../../components/TitleCards/TitleCArds'
 
 const Home = () => {
   return (
@@ -18,12 +20,18 @@ const Home = () => {
             Every bond has a story. Discover the ties that change everything. In a world of secrets, the ties we choose define us. Unravel the ties. Reveal the truth.
           </p>
           <div className="hero-btns">
-            <button>
-              <img src={play_icon} alt="" />
+            <button className='btn'>
+              <img src={play_icon} alt="" />Play
+            </button>
+            <button className='btn dark-btn' >
+              <img src={info_icon} alt="" />
+              More Info
             </button>
           </div>
+      <TitleCArds />
         </div>
       </div>
+
     </div>
   )
 }
