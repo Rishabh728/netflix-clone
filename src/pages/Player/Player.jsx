@@ -1,10 +1,12 @@
 import React from 'react'
 import './Player.css'
+import black_arrow_icon from '../../assets/back_arrow_icon.png'
 
 const Player = () => {
   return (
       <div className='player'>
-          
+      <img src={black_arrow_icon} alt="" />
+      <iframe src="" frameborder="0"></iframe>
     </div>
   )
 }
