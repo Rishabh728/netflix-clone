@@ -6,7 +6,7 @@ const Player = () => {
   return (
       <div className='player'>
       <img src={black_arrow_icon} alt="" />
-      <iframe src="" frameborder="0"></iframe>
+      <iframe src="{}" frameborder="0" width='90%' height='90%'></iframe>
     </div>
   )
 }
